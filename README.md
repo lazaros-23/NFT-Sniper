@@ -14,6 +14,9 @@ NFT-Sniper is a tool that help you spot rare nfts before everyone else. Sniper t
 ## Marketplaces
 
 Currently it runs only for opensea projects 
+<p align="center">
+  <img src="https://storage.googleapis.com/opensea-static/opensea-js-logo-updated.png" />
+</p>
 
 
 ## Team 
