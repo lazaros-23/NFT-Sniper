@@ -17,6 +17,7 @@ NFT-Sniper is a tool that help you spot rare nfts before everyone else. Sniper t
 * Lazaros Paschalidis [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/lazaros-paschalidis-6a5074118/)
 
 ## 🛠️ Tools Used
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
 <p>
       <a href="https://www.python.org/"><img alt="python" src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/"></a>
