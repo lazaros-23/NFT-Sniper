@@ -19,7 +19,7 @@ NFT-Sniper is a tool that help you spot rare nfts before everyone else. Sniper t
 ## 🛠️ Tools Used
 
 <p>
-      [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+    <a  [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) ></a>
    <a href="https://www.linux.org/"><img alt="Linux" src="https://img.shields.io/badge/Linux-black.svg?logo=linux&logoColor=white"></a>
    <a href="https://ubuntu.com/"><img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-dd4814.svg?logo=ubuntu&logoColor=white"></a>
     <a href="https://code.visualstudio.com/"><img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-4db3f3.svg?logo=visual-studio-code&logoColor=white"></a>
