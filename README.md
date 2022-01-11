@@ -2,9 +2,12 @@
 Buy rare NFTs faster than everyone else
 
 <div style="text-align:center"><img src="./Assets/Beeple-nft.png" /></div>
+img[src$="centerme"] {
+  display:block;
+  margin: 0 auto;
+}
 
 
-![NFT](./Assets/Beeple-nft.png/?style=centerme)
 
 ## About NFT-Sniper
 
