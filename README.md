@@ -1,7 +1,7 @@
 # NFT-Sniper
 Buy rare NFTs faster than everyone else
 
-<div style="text-align:center"><img src="./Assets/Beeple-nft.png" /></div>.
+<div style="text-align:center"><img src="./Assets/Beeple-nft.png" /></div>
 
 ## About NFT-Sniper
 
