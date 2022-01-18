@@ -147,6 +147,7 @@ url = "https://app.traitsniper.com/8sian-main-collection?page=1&min_price=0.01"
 #browser = webdriver(ChromeDriverManager().install(), options = option)
 options = ChromeOptions()
 options.headless = True
+options.headless = True
 browser = webdriver.Chrome(ChromeDriverManager().install())#, options=options)
 options.add_experimental_option("detach", True)
 
@@ -171,20 +172,26 @@ def make_dataframe(data, dictionary: dict):
 
         key = element[0]
         value = element[1]
+        value = float(re.sub("[^\d\.]", "", value))
+
 
         dictionary[key] = value
 
     return(dictionary)    
 
-data = []
-
-for row in active_nfts_list:
-    score = row[1].replace('OpenSea ',"")
-    row = row.splitlines()
-    new_dir = {"id": row[0], 'Score': float(score.replace(',', '')), 'Rank': int(row[2]),
-               'Price': float(row[3].replace('Ξ', "").replace(',', ''))}
-    data.append(make_dataframe(row, new_dir))
 
 
-data = pandas.DataFrame(data)
-print(data.head(10))
+
+def extract_rows_text(active_nfts_list):
+    data = []
+    for row in active_nfts_list:
+        score = row[1].replace('OpenSea ',"")
+        row = row.splitlines()
+        new_dir = {"id": row[0], 'Score': float(score.replace(',', '')), 'Rank': int(row[2]),
+        'Price': float(row[3].replace('Ξ', "").replace(',', ''))}
+        data.append(make_dataframe(row, new_dir))
+
+    return pandas.DataFrame(data)
+
+print(extract_rows_text(active_nfts_list).head(10))
+
